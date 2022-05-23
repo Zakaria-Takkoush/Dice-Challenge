@@ -7,5 +7,10 @@ window.onload = function () {
 // Get image objects
     var dice1 = document.getElementsByClassName("img1")[0]
     var dice2 = document.getElementsByClassName("img2")[0]
+
+// Display images based on random numbers
+    dice1.setAttribute("src", "images/dice" + rand1 + ".png")
+    dice2.setAttribute("src", "images/dice" + rand2 + ".png")
+
 }
 
